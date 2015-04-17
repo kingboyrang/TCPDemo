@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  UpdFileTransfer
+//
+//  Created by rang on 15-3-28.
+//  Copyright (c) 2015年 wulanzhou-mini. All rights reserved.
+//
+/**
+#ifndef UpdFileTransfer_PrefixHeader_pch
+#define UpdFileTransfer_PrefixHeader_pch
+
+#import "BasicViewController.h"
+#import "BasicTableViewController.h"
+#import "UINavigationBar+TPCategory.h"
+#import "UIImage+TPCategory.h"
+#import "UIColor+TPCategory.h"
+#import "AlertHelper.h"
+
+#endif
+**/
+#ifdef __OBJC__ 
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "BasicViewController.h"
+#import "BasicTableViewController.h"
+#import "UINavigationBar+TPCategory.h"
+#import "UIImage+TPCategory.h"
+#import "UIColor+TPCategory.h"
+#import "AlertHelper.h"
+
+#endif
+
+/**
+ 在plist中加入以下配置即可.
+ <key>SBUsesNetwork</key>
+ <string>3</string>
+ <key>UIRequiresPersistentWiFi</key>
+ <true/>
+ 注意事项:
+ 1.wifi必须无任何有效设置状态.
+ 2.设置 - > 无线局域网 -> 询问是否加入网络 选项必须打开.
+ 3.仅在开启时或者是由后台切换到前台时能提示, 使用途中wifi断开无法弹出提示.
+**/

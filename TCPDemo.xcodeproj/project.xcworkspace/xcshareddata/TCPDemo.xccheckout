@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A134AF46-BDF0-44C2-95C6-56A39A475010</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TCPDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>19ABDF48C57C2AF53A5848992B7556788D138A28</key>
+		<string>https://git.oschina.net/linegit/TCPDemoiOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TCPDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>19ABDF48C57C2AF53A5848992B7556788D138A28</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/linegit/TCPDemoiOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>19ABDF48C57C2AF53A5848992B7556788D138A28</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>19ABDF48C57C2AF53A5848992B7556788D138A28</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TCPDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
