@@ -7,73 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2640E37F1AD1861C00ED522D /* FileManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E37E1AD1861C00ED522D /* FileManger.m */; };
 		2640E3811AD186AF00ED522D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2640E3801AD186AF00ED522D /* AssetsLibrary.framework */; };
-		2640E3851AD1880100ED522D /* FileAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E3841AD1880100ED522D /* FileAttribute.m */; };
-		2640E38C1AD18AC400ED522D /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E3881AD18AC400ED522D /* PhotosViewController.m */; };
-		2640E38D1AD18AC400ED522D /* PhotosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E38A1AD18AC400ED522D /* PhotosTableViewCell.m */; };
 		2640E38E1AD18AC400ED522D /* PhotosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2640E38B1AD18AC400ED522D /* PhotosTableViewCell.xib */; };
-		2640E3971AD18DE700ED522D /* SendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E3941AD18DE700ED522D /* SendListViewController.m */; };
-		2640E39C1AD18DFD00ED522D /* SendFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E39A1AD18DFD00ED522D /* SendFileCell.m */; };
 		2640E39D1AD18DFD00ED522D /* SendFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2640E39B1AD18DFD00ED522D /* SendFileCell.xib */; };
 		2640E3A61AD1A1C600ED522D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2640E3A51AD1A1C600ED522D /* AVFoundation.framework */; };
 		2640E3A81AD1A1CC00ED522D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2640E3A71AD1A1CC00ED522D /* CoreMedia.framework */; };
-		26A6503C1AD235B100958D58 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6503B1AD235B100958D58 /* VideoViewController.m */; };
-		26A6503F1AD23A0F00958D58 /* FileMangerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6503E1AD23A0F00958D58 /* FileMangerViewController.m */; };
-		26A8137B1ACFA03700CE504E /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A813601ACFA03700CE504E /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		26A813851ACFA03700CE504E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8137A1ACFA03700CE504E /* ViewController.m */; };
-		26ABB6E71AD15E950068DDAB /* UINavigationBar+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6E61AD15E950068DDAB /* UINavigationBar+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		26ABB6EF1AD15EA90068DDAB /* UIImage+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6EB1AD15EA90068DDAB /* UIImage+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		26ABB6F01AD15EA90068DDAB /* UIColor+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6ED1AD15EA90068DDAB /* UIColor+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		26ABB6F71AD15F220068DDAB /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6F41AD15F220068DDAB /* BasicViewController.m */; };
-		26ABB6F81AD15F220068DDAB /* BasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6F61AD15F220068DDAB /* BasicTableViewController.m */; };
 		26ABB6FD1AD15F570068DDAB /* barbuttonicon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ABB6FA1AD15F570068DDAB /* barbuttonicon_back@3x.png */; };
 		26ABB6FE1AD15F570068DDAB /* barbuttonicon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ABB6FB1AD15F570068DDAB /* barbuttonicon_back@2x.png */; };
 		26ABB6FF1AD15F570068DDAB /* barbuttonicon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ABB6FC1AD15F570068DDAB /* barbuttonicon_back.png */; };
 		26ABB7011AD165F40068DDAB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABB7001AD165F40068DDAB /* SystemConfiguration.framework */; };
-		26ABB7091AD169230068DDAB /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB7041AD169230068DDAB /* UIAlertView+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		26ABB70A1AD169230068DDAB /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB7061AD169230068DDAB /* RIButtonItem.m */; };
-		26ABB70B1AD169230068DDAB /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB7081AD169230068DDAB /* AlertHelper.m */; };
-		26ABB70E1AD169630068DDAB /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB70D1AD169630068DDAB /* UIActionSheet+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		26ABB7141AD16D9A0068DDAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABB7131AD16D9A0068DDAB /* UIKit.framework */; };
 		26ABB7161AD16DA20068DDAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABB7151AD16DA20068DDAB /* CoreGraphics.framework */; };
 		26ABB7181AD16DA80068DDAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABB7171AD16DA80068DDAB /* Foundation.framework */; };
 		26ABB71A1AD16DAE0068DDAB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABB7191AD16DAE0068DDAB /* QuartzCore.framework */; };
-		26ACC67D1AD41CC3006B1E1F /* SocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC67B1AD41CC3006B1E1F /* SocketClient.m */; };
-		26ACC67F1AD41CCB006B1E1F /* SocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC67E1AD41CCB006B1E1F /* SocketServer.m */; };
-		26ACC6841AD41CD3006B1E1F /* FTConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC6811AD41CD3006B1E1F /* FTConnector.m */; };
-		26ACC6851AD41CD3006B1E1F /* BaseDataPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC6831AD41CD3006B1E1F /* BaseDataPack.m */; };
 		26ACC6871AD431D8006B1E1F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ACC6861AD431D8006B1E1F /* CoreFoundation.framework */; };
 		26ACC6891AD4412E006B1E1F /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ACC6881AD4412E006B1E1F /* QuickLook.framework */; };
 		26E5A31F1AD180C60080ADB4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26E5A31C1AD180C60080ADB4 /* SVProgressHUD.bundle */; };
-		26E5A3201AD180C60080ADB4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E5A31E1AD180C60080ADB4 /* SVProgressHUD.m */; };
-		3E57A8011ADCA306005BE6E0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E57A8001ADCA306005BE6E0 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3E7BCEBF1AD65D1500543115 /* PreviewFileManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEBE1AD65D1500543115 /* PreviewFileManger.m */; };
-		3E7BCEC21AD65D5A00543115 /* BZPreviewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEC01AD65D5A00543115 /* BZPreviewDataSource.m */; };
-		3E7BCECB1AD6796800543115 /* AndroidFileReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEC51AD6796800543115 /* AndroidFileReceiveViewController.m */; };
-		3E7BCECC1AD6796800543115 /* ReceiveFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEC71AD6796800543115 /* ReceiveFileCell.m */; };
 		3E7BCECD1AD6796800543115 /* ReceiveFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7BCEC81AD6796800543115 /* ReceiveFileCell.xib */; };
-		3E7BCECE1AD6796800543115 /* ReceiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCECA1AD6796800543115 /* ReceiveListViewController.m */; };
-		3EA662461ADB789A009B1756 /* CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA662451ADB789A009B1756 /* CTAssetsPickerController.m */; };
-		3EA662491ADB78A8009B1756 /* NSDate+TimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA662481ADB78A8009B1756 /* NSDate+TimeInterval.m */; };
-		3EAF7DCD1ACBF3D9008CC4A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7DCC1ACBF3D9008CC4A4 /* main.m */; };
-		3EAF7DD01ACBF3D9008CC4A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7DCF1ACBF3D9008CC4A4 /* AppDelegate.m */; };
 		3EAF7DD61ACBF3D9008CC4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7DD41ACBF3D9008CC4A4 /* Main.storyboard */; };
 		3EAF7DD81ACBF3D9008CC4A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7DD71ACBF3D9008CC4A4 /* Images.xcassets */; };
 		3EAF7DDB1ACBF3D9008CC4A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7DD91ACBF3D9008CC4A4 /* LaunchScreen.xib */; };
-		3EAF7DE71ACBF3DA008CC4A4 /* TCPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7DE61ACBF3DA008CC4A4 /* TCPDemoTests.m */; };
 		3EAF7DF41ACBF40A008CC4A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAF7DF31ACBF40A008CC4A4 /* CFNetwork.framework */; };
+		FF2D7A7724CFB16E00AC5882 /* FileAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E3841AD1880100ED522D /* FileAttribute.m */; };
+		FF2D7A7824CFB16E00AC5882 /* FileManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E37E1AD1861C00ED522D /* FileManger.m */; };
+		FF2D7A7924CFB16E00AC5882 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB70D1AD169630068DDAB /* UIActionSheet+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF2D7A7A24CFB16E00AC5882 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB7041AD169230068DDAB /* UIAlertView+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF2D7A7B24CFB16E00AC5882 /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB7061AD169230068DDAB /* RIButtonItem.m */; };
+		FF2D7A7C24CFB16E00AC5882 /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB7081AD169230068DDAB /* AlertHelper.m */; };
+		FF2D7A7D24CFB16E00AC5882 /* UIImage+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6EB1AD15EA90068DDAB /* UIImage+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF2D7A7E24CFB16E00AC5882 /* UIColor+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6ED1AD15EA90068DDAB /* UIColor+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF2D7A7F24CFB16E00AC5882 /* UINavigationBar+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6E61AD15E950068DDAB /* UINavigationBar+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF2D7A8024CFB16E00AC5882 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E57A8001ADCA306005BE6E0 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF2D7A8124CFB16E00AC5882 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E5A31E1AD180C60080ADB4 /* SVProgressHUD.m */; };
+		FF2D7A8224CFB16E00AC5882 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A813601ACFA03700CE504E /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF2D7A8324CFB16E00AC5882 /* FTConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC6811AD41CD3006B1E1F /* FTConnector.m */; };
+		FF2D7A8424CFB16E00AC5882 /* BaseDataPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC6831AD41CD3006B1E1F /* BaseDataPack.m */; };
+		FF2D7A8524CFB16E00AC5882 /* SocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC67E1AD41CCB006B1E1F /* SocketServer.m */; };
+		FF2D7A8624CFB16E00AC5882 /* SocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACC67B1AD41CC3006B1E1F /* SocketClient.m */; };
+		FF2D7A8724CFB16E00AC5882 /* AndroidFileReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEC51AD6796800543115 /* AndroidFileReceiveViewController.m */; };
+		FF2D7A8824CFB16E00AC5882 /* ReceiveFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEC71AD6796800543115 /* ReceiveFileCell.m */; };
+		FF2D7A8924CFB16E00AC5882 /* ReceiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCECA1AD6796800543115 /* ReceiveListViewController.m */; };
+		FF2D7A8A24CFB16E00AC5882 /* SendFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E39A1AD18DFD00ED522D /* SendFileCell.m */; };
+		FF2D7A8B24CFB16E00AC5882 /* SendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E3941AD18DE700ED522D /* SendListViewController.m */; };
+		FF2D7A8C24CFB16E00AC5882 /* NSDate+TimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA662481ADB78A8009B1756 /* NSDate+TimeInterval.m */; };
+		FF2D7A8D24CFB16E00AC5882 /* CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA662451ADB789A009B1756 /* CTAssetsPickerController.m */; };
+		FF2D7A8E24CFB18000AC5882 /* BZPreviewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEC01AD65D5A00543115 /* BZPreviewDataSource.m */; };
+		FF2D7A8F24CFB18000AC5882 /* PreviewFileManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCEBE1AD65D1500543115 /* PreviewFileManger.m */; };
+		FF2D7A9024CFB18000AC5882 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E3881AD18AC400ED522D /* PhotosViewController.m */; };
+		FF2D7A9124CFB18000AC5882 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6503B1AD235B100958D58 /* VideoViewController.m */; };
+		FF2D7A9224CFB18000AC5882 /* FileMangerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6503E1AD23A0F00958D58 /* FileMangerViewController.m */; };
+		FF2D7A9324CFB18000AC5882 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6F41AD15F220068DDAB /* BasicViewController.m */; };
+		FF2D7A9424CFB18000AC5882 /* BasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ABB6F61AD15F220068DDAB /* BasicTableViewController.m */; };
+		FF2D7A9524CFB18000AC5882 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8137A1ACFA03700CE504E /* ViewController.m */; };
+		FF2D7A9624CFB18000AC5882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7DCF1ACBF3D9008CC4A4 /* AppDelegate.m */; };
+		FF2D7A9724CFB18E00AC5882 /* PhotosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2640E38A1AD18AC400ED522D /* PhotosTableViewCell.m */; };
+		FF2D7A9824CFB18E00AC5882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7DCC1ACBF3D9008CC4A4 /* main.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3EAF7DE11ACBF3DA008CC4A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3EAF7DBF1ACBF3D9008CC4A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3EAF7DC61ACBF3D9008CC4A4;
-			remoteInfo = TCPDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2640E37D1AD1861C00ED522D /* FileManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManger.h; sourceTree = "<group>"; };
@@ -168,9 +157,6 @@
 		3EAF7DCE1ACBF3D9008CC4A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EAF7DCF1ACBF3D9008CC4A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3EAF7DD71ACBF3D9008CC4A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3EAF7DE01ACBF3DA008CC4A4 /* TCPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EAF7DE51ACBF3DA008CC4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EAF7DE61ACBF3DA008CC4A4 /* TCPDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPDemoTests.m; sourceTree = "<group>"; };
 		3EAF7DF31ACBF40A008CC4A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -190,13 +176,6 @@
 				26ABB7141AD16D9A0068DDAB /* UIKit.framework in Frameworks */,
 				26ABB7011AD165F40068DDAB /* SystemConfiguration.framework in Frameworks */,
 				3EAF7DF41ACBF40A008CC4A4 /* CFNetwork.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3EAF7DDD1ACBF3DA008CC4A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +427,6 @@
 				26ABB7131AD16D9A0068DDAB /* UIKit.framework */,
 				26ABB7001AD165F40068DDAB /* SystemConfiguration.framework */,
 				3EAF7DC91ACBF3D9008CC4A4 /* TCPDemo */,
-				3EAF7DE31ACBF3DA008CC4A4 /* TCPDemoTests */,
 				3EAF7DC81ACBF3D9008CC4A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -457,7 +435,6 @@
 			isa = PBXGroup;
 			children = (
 				3EAF7DC71ACBF3D9008CC4A4 /* TCPDemo.app */,
-				3EAF7DE01ACBF3DA008CC4A4 /* TCPDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -488,23 +465,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3EAF7DE31ACBF3DA008CC4A4 /* TCPDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				3EAF7DE61ACBF3DA008CC4A4 /* TCPDemoTests.m */,
-				3EAF7DE41ACBF3DA008CC4A4 /* Supporting Files */,
-			);
-			path = TCPDemoTests;
-			sourceTree = "<group>";
-		};
-		3EAF7DE41ACBF3DA008CC4A4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3EAF7DE51ACBF3DA008CC4A4 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -525,24 +485,6 @@
 			productReference = 3EAF7DC71ACBF3D9008CC4A4 /* TCPDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3EAF7DDF1ACBF3DA008CC4A4 /* TCPDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3EAF7DED1ACBF3DA008CC4A4 /* Build configuration list for PBXNativeTarget "TCPDemoTests" */;
-			buildPhases = (
-				3EAF7DDC1ACBF3DA008CC4A4 /* Sources */,
-				3EAF7DDD1ACBF3DA008CC4A4 /* Frameworks */,
-				3EAF7DDE1ACBF3DA008CC4A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3EAF7DE21ACBF3DA008CC4A4 /* PBXTargetDependency */,
-			);
-			name = TCPDemoTests;
-			productName = TCPDemoTests;
-			productReference = 3EAF7DE01ACBF3DA008CC4A4 /* TCPDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -555,19 +497,16 @@
 					3EAF7DC61ACBF3D9008CC4A4 = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					3EAF7DDF1ACBF3DA008CC4A4 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 3EAF7DC61ACBF3D9008CC4A4;
-					};
 				};
 			};
 			buildConfigurationList = 3EAF7DC21ACBF3D9008CC4A4 /* Build configuration list for PBXProject "TCPDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans-CN",
 			);
 			mainGroup = 3EAF7DBE1ACBF3D9008CC4A4;
 			productRefGroup = 3EAF7DC81ACBF3D9008CC4A4 /* Products */;
@@ -575,7 +514,6 @@
 			projectRoot = "";
 			targets = (
 				3EAF7DC61ACBF3D9008CC4A4 /* TCPDemo */,
-				3EAF7DDF1ACBF3DA008CC4A4 /* TCPDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -598,13 +536,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EAF7DDE1ACBF3DA008CC4A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -612,60 +543,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2640E37F1AD1861C00ED522D /* FileManger.m in Sources */,
-				3EA662461ADB789A009B1756 /* CTAssetsPickerController.m in Sources */,
-				26A6503C1AD235B100958D58 /* VideoViewController.m in Sources */,
-				3EA662491ADB78A8009B1756 /* NSDate+TimeInterval.m in Sources */,
-				26ABB70B1AD169230068DDAB /* AlertHelper.m in Sources */,
-				26ABB6E71AD15E950068DDAB /* UINavigationBar+TPCategory.m in Sources */,
-				26ACC6841AD41CD3006B1E1F /* FTConnector.m in Sources */,
-				3E7BCECC1AD6796800543115 /* ReceiveFileCell.m in Sources */,
-				2640E3971AD18DE700ED522D /* SendListViewController.m in Sources */,
-				26ABB70E1AD169630068DDAB /* UIActionSheet+Blocks.m in Sources */,
-				26ACC67D1AD41CC3006B1E1F /* SocketClient.m in Sources */,
-				26A8137B1ACFA03700CE504E /* AsyncSocket.m in Sources */,
-				26ABB6EF1AD15EA90068DDAB /* UIImage+TPCategory.m in Sources */,
-				26ACC6851AD41CD3006B1E1F /* BaseDataPack.m in Sources */,
-				2640E38C1AD18AC400ED522D /* PhotosViewController.m in Sources */,
-				26E5A3201AD180C60080ADB4 /* SVProgressHUD.m in Sources */,
-				3E57A8011ADCA306005BE6E0 /* Reachability.m in Sources */,
-				26A813851ACFA03700CE504E /* ViewController.m in Sources */,
-				26ACC67F1AD41CCB006B1E1F /* SocketServer.m in Sources */,
-				26ABB6F01AD15EA90068DDAB /* UIColor+TPCategory.m in Sources */,
-				3E7BCECE1AD6796800543115 /* ReceiveListViewController.m in Sources */,
-				26ABB70A1AD169230068DDAB /* RIButtonItem.m in Sources */,
-				2640E39C1AD18DFD00ED522D /* SendFileCell.m in Sources */,
-				3E7BCEBF1AD65D1500543115 /* PreviewFileManger.m in Sources */,
-				26ABB7091AD169230068DDAB /* UIAlertView+Blocks.m in Sources */,
-				26ABB6F81AD15F220068DDAB /* BasicTableViewController.m in Sources */,
-				3EAF7DD01ACBF3D9008CC4A4 /* AppDelegate.m in Sources */,
-				26ABB6F71AD15F220068DDAB /* BasicViewController.m in Sources */,
-				26A6503F1AD23A0F00958D58 /* FileMangerViewController.m in Sources */,
-				3E7BCEC21AD65D5A00543115 /* BZPreviewDataSource.m in Sources */,
-				3EAF7DCD1ACBF3D9008CC4A4 /* main.m in Sources */,
-				3E7BCECB1AD6796800543115 /* AndroidFileReceiveViewController.m in Sources */,
-				2640E3851AD1880100ED522D /* FileAttribute.m in Sources */,
-				2640E38D1AD18AC400ED522D /* PhotosTableViewCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3EAF7DDC1ACBF3DA008CC4A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3EAF7DE71ACBF3DA008CC4A4 /* TCPDemoTests.m in Sources */,
+				FF2D7A9724CFB18E00AC5882 /* PhotosTableViewCell.m in Sources */,
+				FF2D7A9824CFB18E00AC5882 /* main.m in Sources */,
+				FF2D7A8E24CFB18000AC5882 /* BZPreviewDataSource.m in Sources */,
+				FF2D7A8F24CFB18000AC5882 /* PreviewFileManger.m in Sources */,
+				FF2D7A9024CFB18000AC5882 /* PhotosViewController.m in Sources */,
+				FF2D7A9124CFB18000AC5882 /* VideoViewController.m in Sources */,
+				FF2D7A9224CFB18000AC5882 /* FileMangerViewController.m in Sources */,
+				FF2D7A9324CFB18000AC5882 /* BasicViewController.m in Sources */,
+				FF2D7A9424CFB18000AC5882 /* BasicTableViewController.m in Sources */,
+				FF2D7A9524CFB18000AC5882 /* ViewController.m in Sources */,
+				FF2D7A9624CFB18000AC5882 /* AppDelegate.m in Sources */,
+				FF2D7A7724CFB16E00AC5882 /* FileAttribute.m in Sources */,
+				FF2D7A7824CFB16E00AC5882 /* FileManger.m in Sources */,
+				FF2D7A7924CFB16E00AC5882 /* UIActionSheet+Blocks.m in Sources */,
+				FF2D7A7A24CFB16E00AC5882 /* UIAlertView+Blocks.m in Sources */,
+				FF2D7A7B24CFB16E00AC5882 /* RIButtonItem.m in Sources */,
+				FF2D7A7C24CFB16E00AC5882 /* AlertHelper.m in Sources */,
+				FF2D7A7D24CFB16E00AC5882 /* UIImage+TPCategory.m in Sources */,
+				FF2D7A7E24CFB16E00AC5882 /* UIColor+TPCategory.m in Sources */,
+				FF2D7A7F24CFB16E00AC5882 /* UINavigationBar+TPCategory.m in Sources */,
+				FF2D7A8024CFB16E00AC5882 /* Reachability.m in Sources */,
+				FF2D7A8124CFB16E00AC5882 /* SVProgressHUD.m in Sources */,
+				FF2D7A8224CFB16E00AC5882 /* AsyncSocket.m in Sources */,
+				FF2D7A8324CFB16E00AC5882 /* FTConnector.m in Sources */,
+				FF2D7A8424CFB16E00AC5882 /* BaseDataPack.m in Sources */,
+				FF2D7A8524CFB16E00AC5882 /* SocketServer.m in Sources */,
+				FF2D7A8624CFB16E00AC5882 /* SocketClient.m in Sources */,
+				FF2D7A8724CFB16E00AC5882 /* AndroidFileReceiveViewController.m in Sources */,
+				FF2D7A8824CFB16E00AC5882 /* ReceiveFileCell.m in Sources */,
+				FF2D7A8924CFB16E00AC5882 /* ReceiveListViewController.m in Sources */,
+				FF2D7A8A24CFB16E00AC5882 /* SendFileCell.m in Sources */,
+				FF2D7A8B24CFB16E00AC5882 /* SendListViewController.m in Sources */,
+				FF2D7A8C24CFB16E00AC5882 /* NSDate+TimeInterval.m in Sources */,
+				FF2D7A8D24CFB16E00AC5882 /* CTAssetsPickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3EAF7DE21ACBF3DA008CC4A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3EAF7DC61ACBF3D9008CC4A4 /* TCPDemo */;
-			targetProxy = 3EAF7DE11ACBF3DA008CC4A4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3EAF7DD41ACBF3D9008CC4A4 /* Main.storyboard */ = {
@@ -721,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -756,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -767,15 +682,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: jing li (U4XXAX975U)";
+				CODE_SIGN_IDENTITY = "Apple Development: Xueke He (ANRNA66P3F)";
 				GCC_PREFIX_HEADER = TCPDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = TCPDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c5ed1feb-4902-42db-b752-8b3407abe5e7";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -783,48 +698,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: jing li (U4XXAX975U)";
+				CODE_SIGN_IDENTITY = "Apple Development: Xueke He (ANRNA66P3F)";
 				GCC_PREFIX_HEADER = TCPDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = TCPDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c5ed1feb-4902-42db-b752-8b3407abe5e7";
-				VALID_ARCHS = "armv7 armv7s";
-			};
-			name = Release;
-		};
-		3EAF7DEE1ACBF3DA008CC4A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TCPDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCPDemo.app/TCPDemo";
-			};
-			name = Debug;
-		};
-		3EAF7DEF1ACBF3DA008CC4A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TCPDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCPDemo.app/TCPDemo";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -845,15 +727,6 @@
 			buildConfigurations = (
 				3EAF7DEB1ACBF3DA008CC4A4 /* Debug */,
 				3EAF7DEC1ACBF3DA008CC4A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3EAF7DED1ACBF3DA008CC4A4 /* Build configuration list for PBXNativeTarget "TCPDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3EAF7DEE1ACBF3DA008CC4A4 /* Debug */,
-				3EAF7DEF1ACBF3DA008CC4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
